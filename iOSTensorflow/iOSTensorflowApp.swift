@@ -12,6 +12,7 @@ struct iOSTensorflowApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(InferenceViewModel())
         }
     }
 }

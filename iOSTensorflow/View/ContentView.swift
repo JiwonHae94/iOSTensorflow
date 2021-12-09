@@ -8,9 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var model : InferenceViewModel
+    
+    let sampleImage = UIImage(named: "dog")
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Image(uiImage: sampleImage!)
+                .resizable()
+                .scaledToFit()
+            
+            Button {
+                model.runModel(frame: CVPixelBuffer.buffer(from: sampleImage!)!)
+            } label: {
+                ZStack{
+                    Rectangle()
+                        .foregroundColor(.blue)
+                        .cornerRadius(5)
+                    
+                    Text("RUN")
+                        .bold()
+                        .foregroundColor(.white)
+                }
+            }
+            
+            Text("time taken : \(String(model.result?.inferenceTime ?? -1.0))")
+            Text("tag : \(model.result?.inferences.last?.label ?? "NA")")
+            Text("confidence : \(String(model.result?.inferences.last?.confidence ?? -1.0))")
+
+        }
+        .padding()
     }
 }
 
