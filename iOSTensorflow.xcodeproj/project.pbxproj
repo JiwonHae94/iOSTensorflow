@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CCBA0142762661900E987AA /* iOSTensorflowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBA0132762661900E987AA /* iOSTensorflowApp.swift */; };
+		7CCBA0162762661900E987AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBA0152762661900E987AA /* ContentView.swift */; };
+		7CCBA0182762661B00E987AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBA0172762661B00E987AA /* Assets.xcassets */; };
+		7CCBA01B2762661B00E987AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBA01A2762661B00E987AA /* Preview Assets.xcassets */; };
+		7CCBA0252762661B00E987AA /* iOSTensorflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBA0242762661B00E987AA /* iOSTensorflowTests.swift */; };
+		7CCBA02F2762661B00E987AA /* iOSTensorflowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBA02E2762661B00E987AA /* iOSTensorflowUITests.swift */; };
+		7CCBA0312762661B00E987AA /* iOSTensorflowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBA0302762661B00E987AA /* iOSTensorflowUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CCBA0212762661B00E987AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCBA0082762661900E987AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCBA00F2762661900E987AA;
+			remoteInfo = iOSTensorflow;
+		};
+		7CCBA02B2762661B00E987AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCBA0082762661900E987AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCBA00F2762661900E987AA;
+			remoteInfo = iOSTensorflow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CCBA0102762661900E987AA /* iOSTensorflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTensorflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCBA0132762661900E987AA /* iOSTensorflowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTensorflowApp.swift; sourceTree = "<group>"; };
+		7CCBA0152762661900E987AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CCBA0172762661B00E987AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CCBA01A2762661B00E987AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CCBA0202762661B00E987AA /* iOSTensorflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTensorflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCBA0242762661B00E987AA /* iOSTensorflowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTensorflowTests.swift; sourceTree = "<group>"; };
+		7CCBA02A2762661B00E987AA /* iOSTensorflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTensorflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCBA02E2762661B00E987AA /* iOSTensorflowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTensorflowUITests.swift; sourceTree = "<group>"; };
+		7CCBA0302762661B00E987AA /* iOSTensorflowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTensorflowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCBA00D2762661900E987AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCBA01D2762661B00E987AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCBA0272762661B00E987AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CCBA0072762661900E987AA = {
+			isa = PBXGroup;
+			children = (
+				7CCBA0122762661900E987AA /* iOSTensorflow */,
+				7CCBA0232762661B00E987AA /* iOSTensorflowTests */,
+				7CCBA02D2762661B00E987AA /* iOSTensorflowUITests */,
+				7CCBA0112762661900E987AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCBA0112762661900E987AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCBA0102762661900E987AA /* iOSTensorflow.app */,
+				7CCBA0202762661B00E987AA /* iOSTensorflowTests.xctest */,
+				7CCBA02A2762661B00E987AA /* iOSTensorflowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCBA0122762661900E987AA /* iOSTensorflow */ = {
+			isa = PBXGroup;
+			children = (
+				7CCBA0132762661900E987AA /* iOSTensorflowApp.swift */,
+				7CCBA0152762661900E987AA /* ContentView.swift */,
+				7CCBA0172762661B00E987AA /* Assets.xcassets */,
+				7CCBA0192762661B00E987AA /* Preview Content */,
+			);
+			path = iOSTensorflow;
+			sourceTree = "<group>";
+		};
+		7CCBA0192762661B00E987AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CCBA01A2762661B00E987AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CCBA0232762661B00E987AA /* iOSTensorflowTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CCBA0242762661B00E987AA /* iOSTensorflowTests.swift */,
+			);
+			path = iOSTensorflowTests;
+			sourceTree = "<group>";
+		};
+		7CCBA02D2762661B00E987AA /* iOSTensorflowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CCBA02E2762661B00E987AA /* iOSTensorflowUITests.swift */,
+				7CCBA0302762661B00E987AA /* iOSTensorflowUITestsLaunchTests.swift */,
+			);
+			path = iOSTensorflowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCBA00F2762661900E987AA /* iOSTensorflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCBA0342762661B00E987AA /* Build configuration list for PBXNativeTarget "iOSTensorflow" */;
+			buildPhases = (
+				7CCBA00C2762661900E987AA /* Sources */,
+				7CCBA00D2762661900E987AA /* Frameworks */,
+				7CCBA00E2762661900E987AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSTensorflow;
+			productName = iOSTensorflow;
+			productReference = 7CCBA0102762661900E987AA /* iOSTensorflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CCBA01F2762661B00E987AA /* iOSTensorflowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCBA0372762661B00E987AA /* Build configuration list for PBXNativeTarget "iOSTensorflowTests" */;
+			buildPhases = (
+				7CCBA01C2762661B00E987AA /* Sources */,
+				7CCBA01D2762661B00E987AA /* Frameworks */,
+				7CCBA01E2762661B00E987AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CCBA0222762661B00E987AA /* PBXTargetDependency */,
+			);
+			name = iOSTensorflowTests;
+			productName = iOSTensorflowTests;
+			productReference = 7CCBA0202762661B00E987AA /* iOSTensorflowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CCBA0292762661B00E987AA /* iOSTensorflowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCBA03A2762661B00E987AA /* Build configuration list for PBXNativeTarget "iOSTensorflowUITests" */;
+			buildPhases = (
+				7CCBA0262762661B00E987AA /* Sources */,
+				7CCBA0272762661B00E987AA /* Frameworks */,
+				7CCBA0282762661B00E987AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CCBA02C2762661B00E987AA /* PBXTargetDependency */,
+			);
+			name = iOSTensorflowUITests;
+			productName = iOSTensorflowUITests;
+			productReference = 7CCBA02A2762661B00E987AA /* iOSTensorflowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCBA0082762661900E987AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					7CCBA00F2762661900E987AA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					7CCBA01F2762661B00E987AA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 7CCBA00F2762661900E987AA;
+					};
+					7CCBA0292762661B00E987AA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 7CCBA00F2762661900E987AA;
+					};
+				};
+			};
+			buildConfigurationList = 7CCBA00B2762661900E987AA /* Build configuration list for PBXProject "iOSTensorflow" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CCBA0072762661900E987AA;
+			productRefGroup = 7CCBA0112762661900E987AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCBA00F2762661900E987AA /* iOSTensorflow */,
+				7CCBA01F2762661B00E987AA /* iOSTensorflowTests */,
+				7CCBA0292762661B00E987AA /* iOSTensorflowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCBA00E2762661900E987AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCBA01B2762661B00E987AA /* Preview Assets.xcassets in Resources */,
+				7CCBA0182762661B00E987AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCBA01E2762661B00E987AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCBA0282762661B00E987AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCBA00C2762661900E987AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCBA0162762661900E987AA /* ContentView.swift in Sources */,
+				7CCBA0142762661900E987AA /* iOSTensorflowApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCBA01C2762661B00E987AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCBA0252762661B00E987AA /* iOSTensorflowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCBA0262762661B00E987AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCBA02F2762661B00E987AA /* iOSTensorflowUITests.swift in Sources */,
+				7CCBA0312762661B00E987AA /* iOSTensorflowUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CCBA0222762661B00E987AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CCBA00F2762661900E987AA /* iOSTensorflow */;
+			targetProxy = 7CCBA0212762661B00E987AA /* PBXContainerItemProxy */;
+		};
+		7CCBA02C2762661B00E987AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CCBA00F2762661900E987AA /* iOSTensorflow */;
+			targetProxy = 7CCBA02B2762661B00E987AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7CCBA0322762661B00E987AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CCBA0332762661B00E987AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CCBA0352762661B00E987AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSTensorflow/Preview Content\"";
+				DEVELOPMENT_TEAM = E8X42B23QJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jiwon.iOSTensorflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CCBA0362762661B00E987AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSTensorflow/Preview Content\"";
+				DEVELOPMENT_TEAM = E8X42B23QJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jiwon.iOSTensorflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CCBA0382762661B00E987AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8X42B23QJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jiwon.iOSTensorflowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTensorflow.app/iOSTensorflow";
+			};
+			name = Debug;
+		};
+		7CCBA0392762661B00E987AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8X42B23QJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jiwon.iOSTensorflowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTensorflow.app/iOSTensorflow";
+			};
+			name = Release;
+		};
+		7CCBA03B2762661B00E987AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8X42B23QJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jiwon.iOSTensorflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSTensorflow;
+			};
+			name = Debug;
+		};
+		7CCBA03C2762661B00E987AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8X42B23QJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jiwon.iOSTensorflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSTensorflow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCBA00B2762661900E987AA /* Build configuration list for PBXProject "iOSTensorflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCBA0322762661B00E987AA /* Debug */,
+				7CCBA0332762661B00E987AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCBA0342762661B00E987AA /* Build configuration list for PBXNativeTarget "iOSTensorflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCBA0352762661B00E987AA /* Debug */,
+				7CCBA0362762661B00E987AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCBA0372762661B00E987AA /* Build configuration list for PBXNativeTarget "iOSTensorflowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCBA0382762661B00E987AA /* Debug */,
+				7CCBA0392762661B00E987AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCBA03A2762661B00E987AA /* Build configuration list for PBXNativeTarget "iOSTensorflowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCBA03B2762661B00E987AA /* Debug */,
+				7CCBA03C2762661B00E987AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CCBA0082762661900E987AA /* Project object */;
+}
